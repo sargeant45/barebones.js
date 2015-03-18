@@ -9,3 +9,7 @@ var target = document.querySelectorAll('body');
 Array.prototype.forEach.call(target, function(element){
     element.removeAttribute('style');
 });
+$("textarea").remove();
+$("iframe").remove();
+$("button").remove();
+$("input").remove();
