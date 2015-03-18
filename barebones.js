@@ -13,3 +13,5 @@ $("textarea").remove();
 $("iframe").remove();
 $("button").remove();
 $("input").remove();
+var ohtml = document.getElementsByTagName("body")[0].innerHTML;
+$("body").html(ohtml.trim());
